@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Summary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="result component.css">
+    
+</head>
+<body>
+    <main class="container">
+        <div class="container-section">  
+            <section class="result-component">
+            <div class="result-component-tittle">
+                <p>Your Result</p>
+            </div>
+            <div class="result-component-numbers">
+                <div class="numbers">
+                    <span>76</span>
+                    <samp>of 1oo</samp>
+                </div>
+            </div>
+            <div class="result-component-status">
+                <div class="status">
+                    Great
+                </div>
+            </div>
+            <div class="result-component-paragraph">
+                <p>you scored higher than 65% of the people who have taken these test</p>
+            </div>
+            </section>
+            <section class="summary-component">
+            <div class="summary-component-tittle">
+                <h2>Summary</h2>
+            </div>
+            <div class="summary-component-list">
+                <div class="reaction">
+                    <div class="reaction-icon-tittle">
+                        <img src="./icon-reaction.svg" alt="icon-reaction">
+                        <div class="reaction-tittle">
+                            <p>Reaction </p>
+                        </div>
+                    </div>
+                    <div class="reaction-status">
+                        <p> <span id="reaction">0</span>/100</p>
+                    </div>
+                </div>
+                <div class="memory">
+                    <div class="memory-icon-tittle">
+                        <img src="./icon-memory.svg" alt="">
+                        <div class="memory-tittle">
+                            <p>Memory </p>
+                        </div>
+                    </div>
+                    <div class="memory-status">
+                        <p><span id="memory">0</span>/100</p>
+                    </div>
+                </div>
+                <div class="verbal">
+                    <div class="verbal-icon-tittle">
+                        <img src="./icon-verbal.svg" alt="">
+                        <div class="verbal-tittle">
+                           <p>Verbal</p> 
+                        </div>
+                    </div>
+                    <div class="verbal-status">
+                        <p><span id="verbal">0</span>/100</p>
+                    </div>
+                </div>
+                <div class="visual">
+                    <div class="visual-icon-tittle">
+                        <img src="./icon-visual.svg" alt="">
+                        <div class="visual-tittle">
+                            <p>Visual</p>
+                        </div>
+                    </div>
+                    <div class="visual-status">
+                       </p><span id="visual">0</span>/100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="summary-component-button">
+                                  
+                    <button id="updateBtn" onclick="updateStatistics()">Update Statistics
+                    </button>
+                              
+            </div>
+            </section>
+        </div>
+    </main>
+<script src="styles.js"></script>    
+</body>
+</html>

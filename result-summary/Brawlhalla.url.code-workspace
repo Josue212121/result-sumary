@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "result-summary",
+			"path": "."
+		},
+		{
+			"name": "fonts",
+			"path": "../Iconos e imagen summary/fonts"
+		},
+		{
+			"name": "images",
+			"path": "../Iconos e imagen summary/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "result-summary"
+	}
+}

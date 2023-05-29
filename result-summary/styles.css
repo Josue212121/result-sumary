@@ -1,0 +1,24 @@
+@import url(result-component.css);
+@import url(summary-component.css);
+
+body {
+    margin: o;
+    padding: o;
+    font-family: "Raleway" sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-section {
+
+    width: 55%;
+    height: 465px;
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 15px 15px 20px #2c2c2c;
+}
